@@ -10,7 +10,7 @@
         <scene sceneID="B4K-O3-sGh">
             <objects>
                 <navigationController id="3fF-W3-w0g" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7IT-LE-0mK">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7IT-LE-0mK" customClass="MainNavigationBar">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -20,7 +20,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1wu-B7-ybL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-830" y="137"/>
+            <point key="canvasLocation" x="-791" y="134"/>
         </scene>
         <!--Top-->
         <scene sceneID="tne-QT-ifu">
@@ -52,6 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="17" y="135"/>
         </scene>
         <!--Adjust Tap Area-->
         <scene sceneID="jYk-ZV-sC8">
@@ -72,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W4K-5G-5F8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="623" y="136"/>
+            <point key="canvasLocation" x="958" y="134"/>
         </scene>
     </scenes>
 </document>
