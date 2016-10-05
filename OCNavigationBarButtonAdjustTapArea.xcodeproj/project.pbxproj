@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD224E5E1DA54AF100221B2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD224E5D1DA54AF100221B2D /* main.m */; };
+		FD224E611DA54AF100221B2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD224E601DA54AF100221B2D /* AppDelegate.m */; };
+		FD224E641DA54AF100221B2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD224E631DA54AF100221B2D /* ViewController.m */; };
+		FD224E671DA54AF100221B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD224E651DA54AF100221B2D /* Main.storyboard */; };
+		FD224E691DA54AF100221B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD224E681DA54AF100221B2D /* Assets.xcassets */; };
+		FD224E6C1DA54AF100221B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD224E6A1DA54AF100221B2D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD224E591DA54AF100221B2D /* OCNavigationBarButtonAdjustTapArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCNavigationBarButtonAdjustTapArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD224E5D1DA54AF100221B2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD224E5F1DA54AF100221B2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD224E601DA54AF100221B2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD224E621DA54AF100221B2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD224E631DA54AF100221B2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD224E661DA54AF100221B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD224E681DA54AF100221B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD224E6B1DA54AF100221B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD224E6D1DA54AF100221B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD224E561DA54AF100221B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD224E501DA54AF100221B2D = {
+			isa = PBXGroup;
+			children = (
+				FD224E5B1DA54AF100221B2D /* OCNavigationBarButtonAdjustTapArea */,
+				FD224E5A1DA54AF100221B2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD224E5A1DA54AF100221B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD224E591DA54AF100221B2D /* OCNavigationBarButtonAdjustTapArea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD224E5B1DA54AF100221B2D /* OCNavigationBarButtonAdjustTapArea */ = {
+			isa = PBXGroup;
+			children = (
+				FD224E5F1DA54AF100221B2D /* AppDelegate.h */,
+				FD224E601DA54AF100221B2D /* AppDelegate.m */,
+				FD224E621DA54AF100221B2D /* ViewController.h */,
+				FD224E631DA54AF100221B2D /* ViewController.m */,
+				FD224E651DA54AF100221B2D /* Main.storyboard */,
+				FD224E681DA54AF100221B2D /* Assets.xcassets */,
+				FD224E6A1DA54AF100221B2D /* LaunchScreen.storyboard */,
+				FD224E6D1DA54AF100221B2D /* Info.plist */,
+				FD224E5C1DA54AF100221B2D /* Supporting Files */,
+			);
+			path = OCNavigationBarButtonAdjustTapArea;
+			sourceTree = "<group>";
+		};
+		FD224E5C1DA54AF100221B2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD224E5D1DA54AF100221B2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD224E581DA54AF100221B2D /* OCNavigationBarButtonAdjustTapArea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD224E701DA54AF100221B2D /* Build configuration list for PBXNativeTarget "OCNavigationBarButtonAdjustTapArea" */;
+			buildPhases = (
+				FD224E551DA54AF100221B2D /* Sources */,
+				FD224E561DA54AF100221B2D /* Frameworks */,
+				FD224E571DA54AF100221B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCNavigationBarButtonAdjustTapArea;
+			productName = OCNavigationBarButtonAdjustTapArea;
+			productReference = FD224E591DA54AF100221B2D /* OCNavigationBarButtonAdjustTapArea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD224E511DA54AF100221B2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "麻生 拓弥";
+				TargetAttributes = {
+					FD224E581DA54AF100221B2D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7M7ZGYSAKB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD224E541DA54AF100221B2D /* Build configuration list for PBXProject "OCNavigationBarButtonAdjustTapArea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD224E501DA54AF100221B2D;
+			productRefGroup = FD224E5A1DA54AF100221B2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD224E581DA54AF100221B2D /* OCNavigationBarButtonAdjustTapArea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD224E571DA54AF100221B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD224E6C1DA54AF100221B2D /* LaunchScreen.storyboard in Resources */,
+				FD224E691DA54AF100221B2D /* Assets.xcassets in Resources */,
+				FD224E671DA54AF100221B2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD224E551DA54AF100221B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD224E641DA54AF100221B2D /* ViewController.m in Sources */,
+				FD224E611DA54AF100221B2D /* AppDelegate.m in Sources */,
+				FD224E5E1DA54AF100221B2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD224E651DA54AF100221B2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD224E661DA54AF100221B2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD224E6A1DA54AF100221B2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD224E6B1DA54AF100221B2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD224E6E1DA54AF100221B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD224E6F1DA54AF100221B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD224E711DA54AF100221B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				INFOPLIST_FILE = OCNavigationBarButtonAdjustTapArea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.OCNavigationBarButtonAdjustTapArea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD224E721DA54AF100221B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				INFOPLIST_FILE = OCNavigationBarButtonAdjustTapArea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.OCNavigationBarButtonAdjustTapArea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD224E541DA54AF100221B2D /* Build configuration list for PBXProject "OCNavigationBarButtonAdjustTapArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD224E6E1DA54AF100221B2D /* Debug */,
+				FD224E6F1DA54AF100221B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD224E701DA54AF100221B2D /* Build configuration list for PBXNativeTarget "OCNavigationBarButtonAdjustTapArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD224E711DA54AF100221B2D /* Debug */,
+				FD224E721DA54AF100221B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD224E511DA54AF100221B2D /* Project object */;
+}
