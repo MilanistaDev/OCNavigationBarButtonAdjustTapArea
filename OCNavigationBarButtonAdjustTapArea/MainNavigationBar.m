@@ -10,12 +10,22 @@
 
 @implementation MainNavigationBar
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+/**
+ * タップされた座標がナビゲーションバーの領域内だとユーザインタラクトを有効にする
+ * If the point tapped is inside of the NavigationBar area,
+ * navigationbar's userinteract is true.
+ * @param point tap point /タップ座標
+ * @param event TapEvent / タップイベント
+ * @return self / ユーザインタラクト設定した自身のビュー
+ */
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+
+    if ([self pointInside:point withEvent:event]) {
+        self.userInteractionEnabled = YES;
+    } else {
+        self.userInteractionEnabled = NO;
+    }
+    return [super hitTest:point withEvent:event];
 }
-*/
 
 @end
