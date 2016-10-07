@@ -10,7 +10,7 @@
         <scene sceneID="B4K-O3-sGh">
             <objects>
                 <navigationController id="3fF-W3-w0g" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7IT-LE-0mK" customClass="MainNavigationBar">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7IT-LE-0mK" customClass="MainNavigationBar">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -48,9 +48,7 @@
                             <constraint firstItem="bKM-eV-EXu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uRd-qV-iWO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Top" id="QAz-AD-S6S">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="VrG-2F-4KH"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Top" id="QAz-AD-S6S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +57,7 @@
         <!--Adjust Tap Area-->
         <scene sceneID="jYk-ZV-sC8">
             <objects>
-                <viewController id="nEr-lq-Ttl" customClass="AdjustTapAreaViewController" sceneMemberID="viewController">
+                <viewController id="nEr-lq-Ttl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5NA-Jd-7Q5"/>
                         <viewControllerLayoutGuide type="bottom" id="phz-RQ-KZ2"/>
@@ -69,7 +67,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Adjust Tap Area" id="vuv-RE-UBV"/>
+                    <navigationItem key="navigationItem" title="Adjust Tap Area" id="vuv-RE-UBV">
+                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="juc-Ye-PCB"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W4K-5G-5F8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

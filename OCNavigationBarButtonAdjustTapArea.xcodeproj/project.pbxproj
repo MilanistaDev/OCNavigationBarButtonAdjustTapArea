@@ -14,7 +14,6 @@
 		FD224E691DA54AF100221B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD224E681DA54AF100221B2D /* Assets.xcassets */; };
 		FD224E6C1DA54AF100221B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD224E6A1DA54AF100221B2D /* LaunchScreen.storyboard */; };
 		FD224E751DA553CF00221B2D /* MainNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD224E741DA553CF00221B2D /* MainNavigationBar.m */; };
-		FD224EB61DA7DCA200221B2D /* AdjustTapAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD224EB51DA7DCA200221B2D /* AdjustTapAreaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		FD224E6D1DA54AF100221B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD224E731DA553CF00221B2D /* MainNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationBar.h; sourceTree = "<group>"; };
 		FD224E741DA553CF00221B2D /* MainNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationBar.m; sourceTree = "<group>"; };
-		FD224EB41DA7DCA200221B2D /* AdjustTapAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustTapAreaViewController.h; sourceTree = "<group>"; };
-		FD224EB51DA7DCA200221B2D /* AdjustTapAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustTapAreaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +65,6 @@
 				FD224E601DA54AF100221B2D /* AppDelegate.m */,
 				FD224E621DA54AF100221B2D /* ViewController.h */,
 				FD224E631DA54AF100221B2D /* ViewController.m */,
-				FD224EB41DA7DCA200221B2D /* AdjustTapAreaViewController.h */,
-				FD224EB51DA7DCA200221B2D /* AdjustTapAreaViewController.m */,
 				FD224E731DA553CF00221B2D /* MainNavigationBar.h */,
 				FD224E741DA553CF00221B2D /* MainNavigationBar.m */,
 				FD224E651DA54AF100221B2D /* Main.storyboard */,
@@ -165,7 +160,6 @@
 				FD224E641DA54AF100221B2D /* ViewController.m in Sources */,
 				FD224E611DA54AF100221B2D /* AppDelegate.m in Sources */,
 				FD224E5E1DA54AF100221B2D /* main.m in Sources */,
-				FD224EB61DA7DCA200221B2D /* AdjustTapAreaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
